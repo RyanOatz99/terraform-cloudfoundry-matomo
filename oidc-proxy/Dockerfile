@@ -1,4 +1,4 @@
-FROM nginx:1.20.1-alpine AS runtime
+FROM nginx:1.23.1-alpine AS runtime
 
 COPY ./matomo.template /etc/nginx/conf.d
 
